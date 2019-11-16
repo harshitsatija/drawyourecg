@@ -857,6 +857,9 @@ d: [
   loop: true
 });
 
+ 
+
+
   var ventri = anime({
   targets: '#ventri3',
   d: [
