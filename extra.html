@@ -1,0 +1,87 @@
+<!--<svg id="lol2"
+			width= "100"
+			height= "200"
+			x= "500"
+			y= "800"
+		>
+		<path 
+		class="st0" d="M423.5,201c0,67.1-54.4,121.5-121.5,121.5S180.5,268.1,180.5,201s91.9-23.5,159-23.5S423.5,133.9,423.5,201z"/>
+
+	</svg>
+	-->
+
+	<!--const lol2 = document.querySelector("#lol2");
+let toggle = false;
+
+  var lolol = anime({
+  targets: '.st0',
+  d: [
+    { value: heartout },
+    { value: heartin }
+  ],
+  easing: 'easeOutQuad',
+  duration: 2000,
+  loop: true
+});
+
+-->
+<!doctype html>
+
+
+<html>
+<style>
+*{
+ margin:0px;
+ padding:0px;
+}
+.dropdown{
+ position:relative;
+ display:inline-block;
+}
+.button{
+ padding:10px 40px;
+ font-size:20px;
+}
+#drop-content{
+ display:none ;
+ position:absolute;
+ z-index:1;
+ width:120px;
+}
+#drop-content a{
+ display:block;
+ background:#dfdfdf;
+ padding:10px;
+ color:black;
+ text-decoration:none;
+ font-size:20px;
+ margin-top:2px;
+}
+.dropdown:hover .drop-content{
+ display:block;
+}
+</style>
+<body>
+<center>
+ <div class="dropdown">
+  <button onclick="show_hide()" class="button">Drop</button>
+  <!-- this menu will appear if we hover on the button -->
+  <div style="display:none;" id="drop-content">
+   <a href="#">Item 1</a>
+   <a href="#">Item 1</a>
+   <a href="#">Item 1</a>
+   <a href="#">Item 1</a>
+  </div>
+ </div>
+</center>
+<script>
+	function show_hide(){
+		var click = document.getElementById("drop-content");
+		if(click.style.display == "none"){
+			click.style.display = "block";
+		}
+		else{click.style.display = "none";}
+	}
+</script>
+</body>
+</html>
