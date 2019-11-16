@@ -1052,7 +1052,7 @@ d: [
     { value: "116.47" },
       ],
    r: [
-    { value: "0.24" },
+    { value: "0" },
        ],
   easing: 'easeOutQuad',
   duration: 2000,
@@ -1069,7 +1069,7 @@ d: [
     { value: "116.47" },
         ],
    r: [
-    { value: "0.24" },
+    { value: "0" },
        ],
   easing: 'easeOutQuad',
   duration: 2000,
