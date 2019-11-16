@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	 <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Serif&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.5.0/d3.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.4/lodash.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="anime.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<script src="jquery-3.4.1.min.js"></script>
+
+
+
+<style>
+.explain{
+	width: 1000px; text-align: left; float: left; font-family: IBM Plex Serif; font-size: 35px; font-weight: bolder; color: #ffffff;
+}
+
+.mainhead{
+	text-align: left;  font-family: IBM Plex Serif; font-size: 35px; font-weight: bolder; color: #37657F;
+}
+
+.background{
+  fill: white;
+}
+.band{
+  fill: none;
+  fill-opacity: 100;
+  stroke-opacity: 1;
+  stroke: #b2b2b2;
+  stroke-linecap: round;
+  stroke-width: 1.5px;
+  stroke-dasharray: 0.5 20;
+}
+.band2{
+  fill: none;
+  fill-opacity: 100;
+  stroke-opacity: 1;
+  stroke: #b2b2b2;
+  stroke-linecap: round;
+  stroke-width: 1.5px;
+  stroke-dasharray: 0.4 20;
+}
+.yourpath{
+  fill: none;
+  stroke: #37657F;
+  stroke-width: 5px;
+  stroke-dasharray: 4 0;
+  stroke-linecap:round;
+  opacity: 0.4;
+}
+.defpath{
+  fill:none;stroke:#14AF2D;stroke-width:4.988;stroke-linecap:round;stroke-miterlimit:10;opacity: 0;
+
+}
+.beat{fill:none;stroke:#449364;stroke-width:4.988;stroke-linecap:round;stroke-miterlimit:10;}
+
+.st0{fill:none;stroke:#000000;stroke-width:5;stroke-miterlimit:10;}
+
+.st1{fill:none;stroke:#37657F; stroke-width:3;stroke-miterlimit:10; opacity: 0.4;}
+
+#right{fill: #37657F; opacity: 0.4;}
+#right1{fill: #37657F; opacity: 0.4;}
+#right2{fill: #37657F; opacity: 0.4;}
+#right3{fill: #37657F; opacity: 0.4;}
+#right4{fill: #37657F; opacity: 0.4;}
+#left{fill: #37657F; opacity: 0.4;}
+#left1{fill: #37657F; opacity: 0.4;}
+#left2{fill: #37657F; opacity: 0.4;}
+#left3{fill: #37657F; opacity: 0.4;}
+#left4{fill: #37657F; opacity: 0.4;}
+
+
+.drag{fill:#37657F;stroke-miterlimit:10; opacity: 0.8;}
+.butt{border-radius: : 10px;}
+
+.topbuttselect{border-color: #449364; background-color: #449364; font-family: IBM Plex Serif; font-size: 25px; color: white;}
+.topbuttnotselect{border-color: #449364; background-color: white; font-family: IBM Plex Serif; font-size: 25px; color: #449364;}
+</style>
+
+</head>
+
+<body style="background-color: #F4F4F4; font-family: IBM Plex Serif; margin:0; padding: 0; height: 100px;">
+</body>
+</html>

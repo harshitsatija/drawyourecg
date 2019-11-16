@@ -1416,41 +1416,7 @@ let defaultband3 = svg.append("path")
 
 
 
-let gg = svg.append("g");
 
-  let hearttop = gg.append("rect")
-  .attr("fill","black")
-  .attr("opacity",0)
-  .attr("width",w1+120)
-  .attr("height",h1-70)
-  .attr("transform", "translate(750, 40)")
-  .attr("rx",5);
-
-  let hearttext = gg.append("text")
-  .text("split me")
-  .attr("transform", "translate(850, 250)")
-  .attr("fill","white")
-  .attr("opacity",0)
-  .attr("class","explain");
-
-  hearttop.on("mouseover",()=>{
-    hearttop.attr("opacity",0.3);
-    hearttext.attr("opacity",1);
-  });
-
-    hearttop.on("mouseleave",()=>{
-    hearttop.attr("opacity",0);
-    hearttext.attr("opacity",0);
-  });
-  hearttop.on("mousedown",()=>{
-    d3.select("#g2").transition()
-    .duration(250)
-    .style("opacity",1);
-    hearttop.style("opacity",0);
-    d3.select("#g1").transition()
-    .duration(250).style("opacity",0);
-
-  });
 
 
 
