@@ -141,13 +141,13 @@ body::after  { background: radial-gradient(circle at bottom right, #001e1c, tran
   border-radius: 12px;
   padding: 20px;
 }
+/* Every parameter carries equal weight, so they all get the same surface.
+   The first row used to be tinted with an accent left-border, which read as
+   "focus on this one" without meaning anything. */
 .param-item {
   padding: 10px 12px;
   border-radius: 8px;
-}
-.param-item:first-child {
-  background: rgba(94,234,212,0.08);
-  border-left: 3px solid var(--primary);
+  background: rgba(255,255,255,0.03);
 }
 /* param items are display-only, no hover */
 .param-label {
